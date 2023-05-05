@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=VT323&display=swap');
 
+
 /*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
@@ -41,7 +42,7 @@ ul {
 
 .container {
     max-width: 80%;
-    height: 10vh;
+    /* height: 10vh; */
     margin-inline: auto;
     /* border: 2px solid red; */
 }
@@ -60,7 +61,7 @@ ul {
 /* --> Navbar  */
 
 .navbar-section {
-    height: 100%;
+    height: 10vh;
     justify-content: space-between;
     align-items: center;
     /* border-bottom: 0.2px solid grey; */
@@ -71,6 +72,8 @@ ul {
 .navbar-left {
     max-height: 100%;
     height: 100%;
+    /* width: 25%; */
+    /* border: 2px solid red; */
 }
 
 .logo {
@@ -149,4 +152,320 @@ ul {
 }
 .profile-user div:nth-child(2) i {
     font-size: 0.9rem;
+}
+
+
+/* Header  */
+.header {
+    width: 100%;
+    border: 10px solid darkgreen;
+}
+
+
+/* Main Section  */
+
+/* .main-section {
+    width: 80%;
+    min-height: auto;
+    margin-inline: auto;
+    border: 3px solid blue;
+    position: relative;
+} */
+
+/* main .container {
+    width: 100%;
+    height : auto;
+
+} */
+
+.relative-main {
+    width: 100%;
+    margin: 20px 0;
+    /* border: 2px solid purple; */
+    position: relative;
+    float: left;
+    /* height: auto; */
+
+}
+
+.main-left {
+    width: 20%;
+    /* height: 100px; */
+    /* border: 2px solid orange; */
+    float: left;
+}
+
+.main-right {
+    width: 80%;
+    min-height: auto;
+    /* border: 2px solid orange; */
+    float: left;
+}
+
+.breadcrumb-section p {
+    font-size: 0.75em;
+    color: grey;
+}
+
+.filters-section {
+    /* margin-top: 20px; */
+    padding: 10px;
+}
+
+.filters-section-header {
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.filters-section-header i {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.filters-section-header h2 {
+    display: inline-block;
+}
+
+/* .filters-section-content {
+
+} */
+
+.filter-card {
+    margin-top: 20px;
+    /* border: 2px solid gold; */
+}
+
+.filter-options {
+    padding: 5px 20px;
+}
+
+.filter-options li p {
+    margin: 5px 0;
+}
+
+.color-filter-options li:nth-child(1) p i { color: black; }
+.color-filter-options li:nth-child(2) p i  { color: rgb(233, 229, 229);}
+.color-filter-options li:nth-child(3) p i  { color: Grey;}
+.color-filter-options li:nth-child(4) p i  { color: red;}
+.color-filter-options li:nth-child(5) p i  { color: yellow;}
+.color-filter-options li:nth-child(6) p i  { color: blue;}
+.color-filter-options li:nth-child(7) p i  { color: green;}
+
+
+
+/* Main Right  */
+.brands-section {
+    border: 0.2px solid black;
+    border-radius: 8px;
+}
+
+.brands-section h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.brand-logo-area {
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.brand-logo-box {
+    padding: 5px 20px;
+    margin-bottom: 5px;
+}
+
+.brand-logo-box img{
+    width: 100px;
+    height: 60px;
+    border: 2px dashed black;
+    padding: 5px;
+    border-radius: 10px;
+    /* background-color: red; */
+}
+
+.sortby-heading h4 {
+    display: inline-block;
+}
+
+.sortby-section {
+    width: 100%;
+    /* margin: 10px 0; */
+    justify-content: start;
+    /* margin: 10px 20px; */
+    /* border: 4px solid pink; */
+    padding: 20px 0 5px 0px;
+    border-bottom: 1px solid grey;
+}
+
+/* .sortby-heading {
+    border: 2px solid red;
+    padding: 0 0px;
+} */
+
+/* .sortby-options-box {
+    border: 4px solid black;
+    justify-content: flex-end;
+    gap: 40px;
+    margin: 0 auto;
+} */
+
+.sortby-options-box a {
+    color : black;
+    transition: 0.3s ease-in ;
+    text-decoration: none;
+}
+
+.sortby-options-box a:hover {
+    color : orange;
+    font-weight: 700;
+}
+
+.sortby-options div li a.focus:link {
+    color: black;
+    font-weight: 700;
+}
+
+.sortby-options div {
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 40px;
+    color: black;
+}
+
+
+/* Products Section  */
+
+.products-full-area {
+    margin: 20px 0;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.product-card {
+    width: 23%;
+    height: 350px;
+    /* background-color: pink; */
+    /* border: 4px solid yellow; */
+    border: 0.1px solid grey;
+    padding: 5px;
+    border-radius: 6px;
+    transition: 0.2s ease-in-out;
+    margin: 10px 0;
+}
+
+.product-card:hover{
+    box-shadow: 1px 1px 8px black;
+    border: 1px solid black;
+}
+
+.shoe-img img{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.shoe-company p {
+    /* display: inline-block; */
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.shoe-name a{
+    color: #000;
+    font-weight: 700;
+    padding: 0;
+    /* height: 20px; */
+    font-size: 15px;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    text-align: center;
+}
+
+.shoe-price {
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: flex-end;
+    /* padding: 5px 10px; */
+    gap: 10px;
+}
+
+.mrp h5 {
+    color: grey;
+}
+
+.shoe-rating i {
+    color: gold;
+}
+
+.shoe-rating {
+    justify-content: center;
+}
+
+.footer-section {
+    width: 100%;
+    clear: both;
+    background-color: #232F3E;
+    color: white;
+    /* border: 5px solid cyan; */
+    /* position: relative; */
+    /* bottom: 0; */
+    /* font-family: 'VT323', monospace; */
+}
+
+.footer-area {
+    width: 80%;
+    margin-inline: auto;
+    /* border: 2px solid white; */
+    padding: 20px 0 ;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    justify-content: center;
+}
+
+.handles img {
+    width : 40px
+}
+
+.handles a {
+    text-decoration: none;
+    color: white;
+}
+
+.handles {
+    gap: 20px;
+    align-items: baseline;
+
+}
+
+.socials {
+    margin-left: 72px;
+    font-size: 1.5rem;
+}
+
+.credits {
+    width: 80%;
+    /* border: 2px solid white; */
+    margin-inline: auto;
+}
+
+.credits a {
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 3rem;
+    font-family: 'VT323', monospace;
+    font-style: normal;
 }
