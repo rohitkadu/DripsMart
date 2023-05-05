@@ -1,7 +1,7 @@
 
 # DripsMart Shoe Website
 
-Dynamic real-time Expense Tracker built using ReactJS
+DripsMart is a premium online shoe website that offers wide range of premium luxury shoes for users. A clean user-friendly interface built using HTML, CSS and JS
 
 
 ## Screenshots
